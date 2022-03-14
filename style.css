@@ -1,0 +1,71 @@
+<style> 
+ 
+ } 
+ * {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  min-height: 300px;
+  background-position: center bottom;
+  background-image: url('http://voices.whitman.syr.edu/wp-content/uploads/2015/05/Finance-Banner.png');
+  background-size: 300vh;
+  background-repeat: no-repeat;
+  font-family: 'Impact';
+  font-weight: 500;
+  font-size: 32px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0083ff;
+}
+input{
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+}
+input[type=text] {
+  width: calc(81%);
+  height: 40px;
+}
+input[type=button] {
+  width: 100px;
+  height: 50px;
+  margin: 2px;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+div#calculadora div{
+  display: flex;
+}
+div#calculadora div input:nth-child(4) {
+  background: gray;
+}
+div#quarta input:nth-child(4) {
+  background: #00ff00; 
+
+}
+input[type=button]:hover {
+  filter: brightness(50%);
+}
+input[type=button]:hover { 
+  transform: scale(0.9);
+}
+div#quarta input:nth-child(1) {
+  border-bottom-right-radius: 35px;
+}
+div#quarta input:nth-child(2) {
+  background: #df0000; 
+}
+  
+div#quarta input:nth-child(1) {
+  
+  border-bottom-left-radius: 35px;
+}
+div#quarta input:nth-child(5), 
+div#calculadora {
+  border-bottom-right-radius: 35px;
+}
+</style>
